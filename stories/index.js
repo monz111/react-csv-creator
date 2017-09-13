@@ -5,18 +5,18 @@ import CsvCreator from '../src';
 
 const headers = [{
   id: 'first',
-  display: 'First column'
+  display: '果物'
 }, {
   id: 'second',
-  display: 'Second column'
+  display: '動物'
 }];
 
 const rows = [{
-  first: 'foo',
-  second: 'bar'
+  first: 'りんご',
+  second: '猫'
 }, {
-  first: 'foobar',
-  second: 'foobar'
+  first: 'みかん',
+  second: '犬'
 }];
 
 storiesOf('CsvCreator', module)

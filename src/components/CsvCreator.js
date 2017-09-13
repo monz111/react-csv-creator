@@ -39,7 +39,7 @@ const CsvCreator = props => {
    * @return {String} Returns the csv data correctly formatted
    */
   function formatData (csvHeaders, csvRows) {
-    let csvData = 'data:text/csv;charset=shift-jis,';
+    let csvData = 'data:text/csv;charset=utf-8,\uFEFF';
     let csvDataArray = [];
     const keyList = [];
 
