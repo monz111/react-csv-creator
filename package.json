@@ -1,5 +1,5 @@
 {
-  "name": "react-csv-creator",
+  "name": "react-csv-creator-jp",
   "version": "1.0.8",
   "main": "./lib/index.js",
   "scripts": {
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/romellogood/react-csv-creator.git"
+    "url": "git+https://github.com/monz111/react-csv-creator.git"
   },
   "author": "Romello Goodman <romellogood@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/romellogood/react-csv-creator/issues"
+    "url": "https://github.com/monz111/react-csv-creator/issues"
   },
   "peerDependencies": {
     "prop-types": "^15.5.10",
